@@ -1,0 +1,98 @@
+.container {
+    display: flex;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border-radius: 30px;
+    margin-left: 150px;
+
+}
+
+.image {
+    size: 350px;
+    height: 480px;
+    padding-top: 20px;
+    padding-right: 100px;
+
+}
+
+.watch {
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: red;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 5px;
+}
+
+.button {
+    display: flex;
+}
+
+/* ....for text heading
+........................ */
+.thumbnail {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 100px;
+    padding-top: 30px;
+    width: 50%;
+
+
+    ;
+}
+
+#para {
+    padding-left: 100px;
+    width: 50%;
+    margin-top: -8px;
+}
+
+/* left side box */
+.sidebox {
+
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 10px;
+    color: black;
+    margin-left: 40px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sideboxfull {
+    border: 1px solid black;
+    height: 240px;
+    width: 250px;
+    background-color: black;
+    margin-top: 50px;
+    border-radius: 15px;
+}
+
+/* for gamevideos */
+.videos {
+    width: 250px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.photo {
+    width: 250px;
+}
+
+.mainfeature {
+    display: flex;
+}
