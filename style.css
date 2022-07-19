@@ -2,7 +2,7 @@
     display: flex;
     width: 80%;
     height: 500px;
-    border: 1px solid black;
+    border: 5px solid rgb(214, 19, 19);
     background-color: black;
     color: white;
     border-radius: 15px;
@@ -80,6 +80,15 @@
     background-color: black;
     margin-top: 50px;
     border-radius: 15px;
+    margin-left: 150px;
+    border: 5px solid red;
+    justify-content: center;
+    align-items: center;
+}
+
+#varient {
+    background-color: red;
+    color: white;
 }
 
 /* for gamevideos */
@@ -87,6 +96,12 @@
     width: 250px;
     margin-left: 100px;
     margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 50px;
+    row-gap: 60px;
+
+
 }
 
 .photo {
@@ -95,4 +110,24 @@
 
 .mainfeature {
     display: flex;
+    margin-top: 50px;
+}
+
+.buttonicon {
+    /* display: flex; */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 1px;
+
+
+}
+
+.box {
+    border: 1px solid rgb(238, 233, 233);
+    border-radius: 10px;
+
+}
+
+.bloginfo {
+    padding-left: 15px;
 }
