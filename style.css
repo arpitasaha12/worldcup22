@@ -300,7 +300,7 @@ mobile screem...... */
 
 /* for tablet...
 ............................. */
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:669px) and (max-width:992px) {
     .container {
         height: 500px;
         width: 780px;
